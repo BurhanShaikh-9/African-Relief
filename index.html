@@ -152,8 +152,8 @@
                                 <p class="formHeading">Starting Date of Ramadan</p>
                                 <div class="leftForm">
                                     <div class="firstRow">
-                                        <input type="date" >
-                                        <input type="date" >
+                                        <input type="date" id="startDate" name="startDate">
+                                        <input type="date" id="endDate" name="endDate">
                                     </div>
                                     <div class="secondRow">
                                         <div class="radioButton">
@@ -314,6 +314,15 @@
         </section>
        
     </main>
+    <script>
+
+const startDateInput = document.getElementById("startDate");
+  const endDateInput = document.getElementById("endDate");
+
+  startDateInput.addEventListener("input", function() {
+    endDateInput.min = startDateInput.value;
+  });
+    </script>
 </body>
 
 </html>
