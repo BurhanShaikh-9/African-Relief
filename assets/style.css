@@ -667,4 +667,11 @@ button.navbar-toggler {
     height: 100%;
     width: 300px;
     }
+    .SupportSection > .container > .support{
+        height: 250px;
+        text-align: center;
+    }
+    .footerBrandsSection .contactUs .secondSection .lower p{
+        white-space: nowrap;
+    }
 }
