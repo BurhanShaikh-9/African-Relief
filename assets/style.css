@@ -11,7 +11,11 @@ body {
     font-family: 'Montserrat', sans-serif !important;
 }
 
-.heroSectionOuter , .donateForm, .aboutSection ,.SupportSection,  .footerMenuSection {
+.heroSectionOuter,
+.donateForm,
+.aboutSection,
+.SupportSection,
+.footerMenuSection {
     margin-bottom: 80px;
 }
 
@@ -94,9 +98,11 @@ body {
     height: 420px;
     width: 300px;
 }
+
 .heroSection>.backgroundImages>.img3 {
     display: none;
 }
+
 .heroSection>.container>.mobileHeader {
     display: none;
 }
@@ -119,7 +125,7 @@ button.navbar-toggler {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top:20px;
+    padding-top: 20px;
     position: relative;
     z-index: 1;
 }
@@ -281,7 +287,7 @@ button.navbar-toggler {
     background-color: white;
     cursor: pointer;
     height: 40px;
-    
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -342,14 +348,15 @@ button.navbar-toggler {
     position: relative;
     margin-bottom: 20px;
 }
+
 .formInner>.formWrapper>.rightForm>.firstRow::after {
-    content: "\25BC"; 
+    content: "\25BC";
     position: absolute;
     top: 50%;
     font-size: 15px;
-    right: 20px; 
+    right: 20px;
     transform: translateY(-50%);
-    pointer-events: none; 
+    pointer-events: none;
 }
 
 .formInner>.formWrapper>.rightForm>.secondRow {
@@ -360,14 +367,15 @@ button.navbar-toggler {
     position: relative;
     margin-bottom: 20px;
 }
+
 .formInner>.formWrapper>.rightForm>.secondRow::after {
-    content: "\25BC"; 
+    content: "\25BC";
     position: absolute;
     top: 50%;
     font-size: 15px;
-    right: 20px; 
+    right: 20px;
     transform: translateY(-50%);
-    pointer-events: none; 
+    pointer-events: none;
 }
 
 .formInner>.formWrapper>.rightForm>.thirdRow {
@@ -381,20 +389,26 @@ button.navbar-toggler {
     height: 40px;
     width: 100%;
     padding: 0 20px;
-    appearance: none; /* Remove default styling */
-  -webkit-appearance: none; /* For Safari */
-  -moz-appearance: none; /* For Firefox */
-  border: 1px solid grey;
-  cursor: pointer;
+    appearance: none;
+    /* Remove default styling */
+    -webkit-appearance: none;
+    /* For Safari */
+    -moz-appearance: none;
+    /* For Firefox */
+    border: 1px solid grey;
+    cursor: pointer;
 }
 
 .formInner>.formWrapper>.rightForm>.secondRow select {
     width: 100%;
     padding: 0 20px;
     height: 40px;
-    appearance: none; /* Remove default styling */
-    -webkit-appearance: none; /* For Safari */
-    -moz-appearance: none; /* For Firefox */
+    appearance: none;
+    /* Remove default styling */
+    -webkit-appearance: none;
+    /* For Safari */
+    -moz-appearance: none;
+    /* For Firefox */
     border: 1px solid grey;
     cursor: pointer;
 }
@@ -417,7 +431,8 @@ button.navbar-toggler {
     color: var(--primary-color);
     font-weight: 600;
 }
-.aboutSection>.container> .about{
+
+.aboutSection>.container>.about {
     margin-bottom: 40px;
 }
 
@@ -465,12 +480,14 @@ button.navbar-toggler {
     gap: 30px;
     font-size: 13px;
     font-weight: bold;
-  
+
 }
-.footerMenuSection .footerMenu a{
+
+.footerMenuSection .footerMenu a {
     color: black;
     text-decoration: none;
 }
+
 .footerMenuSection .footerMenu li {
     white-space: nowrap;
 }
@@ -568,7 +585,7 @@ button.navbar-toggler {
     
 } */
 
-.footerBrandsSection{
+.footerBrandsSection {
     margin-bottom: 30px;
 }
 
@@ -592,7 +609,7 @@ button.navbar-toggler {
 @media only screen and (max-width: 768px) {}
 
 @media only screen and (max-width: 576px) {
-    
+
     .navbar-brand .leftSection .logo img {
         width: 70px;
     }
@@ -635,43 +652,64 @@ button.navbar-toggler {
 
     .formInner>.formWrapper>.leftForm>.secondRow>.radioButton .euroClass {
         width: 70px;
-        
+
     }
-    .formInner > .formWrapper > .leftForm{
+
+    .formInner>.formWrapper>.leftForm {
         width: 70%;
     }
+
     .formInner>.formWrapper>.rightForm {
         width: 70%;
-    
+
     }
+
     .heroSection>.backgroundImages>.img1 {
         display: none;
-      
+
     }
+
     .heroSection>.backgroundImages>.img2 {
 
         display: none;
     }
-    .heroSection>.backgroundImages{
+
+    .heroSection>.backgroundImages {
         height: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
     }
+
     .heroSection>.backgroundImages>.img3 {
-    display: block;
-    background-image: url(images/group88.png);
-    background-size:contain;
-    background-position:bottom;
-    background-repeat: no-repeat;
-    height: 100%;
-    width: 300px;
+        display: block;
+        background-image: url(images/group88.png);
+        background-size: contain;
+        background-position: bottom;
+        background-repeat: no-repeat;
+        height: 100%;
+        width: 300px;
     }
-    .SupportSection > .container > .support{
+
+    .SupportSection>.container>.support {
         height: 250px;
         text-align: center;
     }
-    .footerBrandsSection .contactUs .secondSection .lower p{
+
+    .footerBrandsSection .contactUs .secondSection .lower p {
         white-space: nowrap;
+        font-size: 12px;
+    }
+
+    .firstSection .upper {
+        white-space: nowrap;
+    }
+
+    .firstSection .lower {
+        white-space: nowrap;
+    }
+
+    .firstSection .lower a i {
+        margin-right: 3px !important;
     }
 }
