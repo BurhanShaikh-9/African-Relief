@@ -180,7 +180,18 @@ button.navbar-toggler {
     border-radius: 5px;
 }
 
+.offcanvas-body > .donateButton{
+    margin-top: 20px;
+}
+.offcanvas-body > .donateButton a {
+    background-color: var(--primary-color);
+    text-decoration: none;
+    padding: 10px 20px;
+    color: white;
+    font-size: 14px;
+    border-radius: 5px;
 
+}
 
 .mainHeading {
     text-align: center;
@@ -628,6 +639,7 @@ button.navbar-toggler {
     .topHeader>.container>.topHeaderRow {
         text-align: center;
         flex-wrap: wrap;
+        padding: 10px 0;
     }
 
     .topHeader>.container>.topHeaderRow .firstCol {
